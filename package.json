@@ -1,0 +1,37 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "React(Hooks), Redux, Redux-sagaの復習為、簡単なリストアプリケーション",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeonYoungLeee/ReactTodolist.git"
+  },
+  "author": "LEEKY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeonYoungLeee/ReactTodolist/issues"
+  },
+  "homepage": "https://github.com/KeonYoungLeee/ReactTodolist#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "react-hot-loader": "^4.12.20",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
